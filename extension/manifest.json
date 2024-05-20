@@ -1,0 +1,30 @@
+{
+    "name": "Плагин по улучшению карт genshin-impact-map.appsample.com",
+    "description": "t.me/tarodictrl",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts": [
+      {
+        "matches": [
+          "*://genshin-impact-map.appsample.com/*"
+        ],
+        "js": [
+          "js/jquery.js",
+          "js/visualizer.js",
+          "js/serializer.js",
+          "js/markers.js",
+          "js/main.js"
+        ],
+        "css": [
+          "css/main.css"
+        ],
+        "run_at": "document_start"
+      }
+    ],
+    "host_permissions": [
+      "*://genshin-impact-map.appsample.com/*"
+    ],
+    "permissions": [
+      "storage"
+    ]
+}

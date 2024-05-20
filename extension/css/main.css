@@ -1,0 +1,66 @@
+.hidden {
+    display: none;
+}
+
+.MapRightbarMenu {
+    position: absolute;
+    top: 0;
+    right: 320px;
+    z-index: 110;
+    background-color: #eee;
+    box-shadow: inset 1em 0 1em rgba(0,0,0,.1);
+    border-radius: 0 0 0 .5rem;
+    width: 56;
+}
+
+.MapLayout_Rightbar.hide {
+    right: -320px !important;
+}
+
+.btn {
+    background-color: rgb(227, 227, 227);
+    border: 0;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.btn:hover {
+    background-color: rgb(158, 158, 158);
+    cursor: pointer;
+}
+
+.delete-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: gray;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.preset {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.preset.active {
+    background-color: rgb(47, 68, 88);
+    color: rgb(255, 255, 255);
+}
+
+#preset-name {
+    padding: 8.5px 0px 8.5px 14px;
+}
+
+#preset-box {
+    padding: 8px 0px 8px 0px;
+}
