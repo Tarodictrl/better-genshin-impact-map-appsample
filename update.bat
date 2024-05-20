@@ -1,0 +1,1 @@
+git pull https://github.com/Tarodictrl/better-genshin-impact-map-appsample.git
