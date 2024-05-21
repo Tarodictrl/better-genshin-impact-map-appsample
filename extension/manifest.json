@@ -6,7 +6,7 @@
     "content_scripts": [
       {
         "matches": [
-          "*://genshin-impact-map.appsample.com/*"
+          "*://genshin-impact-map.appsample.com/"
         ],
         "js": [
           "js/jquery.js",
@@ -22,7 +22,7 @@
       }
     ],
     "host_permissions": [
-      "*://genshin-impact-map.appsample.com/*"
+      "*://genshin-impact-map.appsample.com/"
     ],
     "permissions": [
       "storage"
